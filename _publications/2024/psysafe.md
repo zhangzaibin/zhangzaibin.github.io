@@ -2,6 +2,7 @@
 title:          "PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety"
 date:           2024-08-20 00:01:00 +0800
 selected:       true
+homepage_order: 2
 pub:            "Annual Meeting of the Association for Computational Linguistics (ACL)"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">Outstanding Paper</span>'
 pub_date:       "2024"

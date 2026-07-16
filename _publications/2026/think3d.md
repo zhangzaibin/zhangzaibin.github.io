@@ -2,6 +2,7 @@
 title:          "Think3D: Thinking with Space for Spatial Reasoning"
 date:           2026-01-22 00:01:00 +0800
 selected:       true
+homepage_order: 3
 pub:            "arXiv"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">190+ GitHub Stars</span>'
 pub_date:       "2026"

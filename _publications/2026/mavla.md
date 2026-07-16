@@ -2,6 +2,7 @@
 title:          "MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization"
 date:           2026-07-01 00:01:00 +0800
 selected:       true
+homepage_order: 4
 pub:            "European Conference on Computer Vision (ECCV)"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Accepted</span>'
 pub_date:       "2026"

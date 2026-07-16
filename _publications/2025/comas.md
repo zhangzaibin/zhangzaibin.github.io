@@ -2,6 +2,7 @@
 title:          "CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards"
 date:           2025-10-09 00:01:00 +0800
 selected:       true
+homepage_order: 6
 pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
 abstract: >-

@@ -2,6 +2,7 @@
 title:          "Attention-DP3: Spatially Object-aware 3D Diffusion Policy via Geometry-aligned Attentional Conditioning"
 date:           2026-06-30 00:01:00 +0800
 selected:       true
+homepage_order: 5
 pub:            "European Conference on Computer Vision (ECCV)"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Accepted</span>'
 pub_date:       "2026"

@@ -2,6 +2,7 @@
 title:          "OASIS: Open Agent Social Interaction Simulations with One Million Agents"
 date:           2024-11-18 00:01:00 +0800
 selected:       true
+homepage_order: 1
 pub:            "NeurIPS 2024 Workshop on Open-World Agents"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">4800+ GitHub Stars</span>'
 pub_date:       "2024"
