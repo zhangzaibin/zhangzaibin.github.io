@@ -34,10 +34,9 @@ short_bio: >-
     I am particularly interested in <strong>Compositional Intelligence for Embodied AI</strong>: learning reusable embodied capabilities that can be recombined across new task structures, execution orders, arm roles, collaboration patterns, and open-ended environments without relying only on demonstration scaling.
   </p>
   <p>
-    Recent embodied projects include MA-VLA, an ECCV 2026 work on multi-arm VLA collaboration through atomic action assignment;
+    Recent embodied projects include <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>, an ECCV 2026 work on multi-arm VLA collaboration through atomic action assignment;
     Attention-DP3, an ECCV 2026 work on object-aware 3D diffusion policies for cluttered manipulation;
-    <a href="https://github.com/zhangzaibin/spagent" target="_blank">Think3D</a>, a spatial reasoning framework for VLM agents;
-    and MACG-Bench, a benchmark for multi-arm compositional generalization.
+    and <a href="https://github.com/zhangzaibin/spagent" target="_blank">Think3D</a>, a spatial reasoning framework for VLM agents.
     My work includes <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, which received the ACL 2024 Outstanding Paper Award,
     <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, a million-scale agent society simulation platform with 4.8k+ GitHub stars,
     and CoMAS, focusing on multi-agent collaboration, agent self-evolution, and RL-based training for next-generation intelligent agents.

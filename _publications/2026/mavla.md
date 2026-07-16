@@ -8,7 +8,21 @@ pub_date:       "2026"
 abstract: >-
   MA-VLA studies multi-arm embodied collaboration through structured atomic action assignment. Instead of treating language as a single global instruction, it decomposes cooperative behavior into mid-level atomic prompts and assigns them to individual arms, enabling explicit division of labor, role-agnostic execution via Arm Shuffle, and compositional reuse across unseen collaboration patterns in simulation and real-world evaluations.
 authors:
-  - Zaibin Zhang
-  - et al.
+  - Zaibin Zhang*
+  - Junlan Xiao*
+  - Zhongbo Zhang*
+  - Yifan Wang
+  - Li Kang
+  - Yiran Qin
+  - Changxing Xia
+  - Heng Zhou
+  - Talas Fu
+  - Enshen Zhou
+  - Ruimao Zhang
+  - Zhenfei Yin
+  - Huchuan Lu
+  - Lijun Wang
+links:
+  Code: https://github.com/zhangzaibin/future-robots
 ---
 
