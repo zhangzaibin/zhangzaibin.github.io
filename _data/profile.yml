@@ -23,23 +23,23 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am Zaibin Zhang, a Ph.D. candidate at
-    <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>,
-    working on Agentic Embodied AI, Vision-Language-Action models, Multimodal Agents, and Reinforcement Learning.
-    I have visited the Torr Vision Group at the
-    <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a>
-    and worked with Shanghai Artificial Intelligence Laboratory and CAMEL-AI on agent research and open-source systems.
+    <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>.
+    I like to think of myself as an agent wandering between two worlds, chasing the same question wherever I land:
+    how far can an "agent" go?
   </p>
   <p>
-    My current research aims to connect the reasoning, memory, and interaction abilities of multimodal agents with reliable robot execution in the physical world.
-    I am particularly interested in <strong>Compositional Intelligence for Embodied AI</strong>: learning reusable embodied capabilities that can be recombined across new task structures, execution orders, arm roles, collaboration patterns, and open-ended environments without relying only on demonstration scaling.
+    In the <strong>digital world</strong>, that question took the shape of
+    <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, which probed the dark side of multi-agent psychology and won the ACL 2024 Outstanding Paper Award,
+    and <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, where I helped grow a whole society of a million agents (now 4.8k+ GitHub stars) just to see what they would do.
   </p>
   <p>
-    Recent embodied projects include <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>, an ECCV 2026 work on multi-arm VLA collaboration through atomic action assignment;
-    Attention-DP3, an ECCV 2026 work on object-aware 3D diffusion policies for cluttered manipulation;
-    and <a href="https://github.com/zhangzaibin/spagent" target="_blank">Think3D</a>, a spatial reasoning framework for VLM agents.
-    My work includes <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, which received the ACL 2024 Outstanding Paper Award,
-    <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, a million-scale agent society simulation platform with 4.8k+ GitHub stars,
-    and CoMAS, focusing on multi-agent collaboration, agent self-evolution, and RL-based training for next-generation intelligent agents.
+    These days I have crossed over into the <strong>physical world</strong>, teaching agents to move, grasp, and coordinate arms instead of just chatting in a sandbox.
+    I visited the Torr Vision Group at the <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a> and worked with Shanghai AI Laboratory and CAMEL-AI along the way, and this embodied chapter now includes
+    <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a> and Attention-DP3 (both ECCV 2026), plus <a href="https://github.com/zhangzaibin/spagent" target="_blank">Think3D</a>.
+  </p>
+  <p>
+    Whichever world I'm in, I keep coming back to the same belief: <strong>Compositional Intelligence</strong> — that agents shouldn't just memorize demonstrations, but decompose skills, recombine them, and improvise on tasks they've never seen.
+    My bet for what comes next is <strong>open-ended robot agents</strong>: embodied agents that keep composing new capability out of old ones, indefinitely.
   </p>
 
 portrait_url: /assets/images/photos/zzb.jpg
