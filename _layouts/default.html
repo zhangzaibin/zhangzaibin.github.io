@@ -4,7 +4,60 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+    {% assign page_description = page.description | default: site.description %}
+    {% if page.url == "/" %}
+    <title>{{ site.title }} | AI Agent Researcher</title>
+    {% else %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% endif %}
+    <meta name="description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    {% if page.noindex %}
+    <meta name="robots" content="noindex, nofollow">
+    {% else %}
+    <meta name="robots" content="index, follow">
+    {% endif %}
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <meta property="og:type" content="{% if page.url == '/' %}profile{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }} | AI Agent Researcher{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if page.url == '/' %}{{ site.title }} | AI Agent Researcher{% else %}{{ page.title }} - {{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ page_description | strip_html | normalize_whitespace | escape }}">
+    <meta name="twitter:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.data.profile.primary_name }}",
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ site.data.profile.portrait_url | absolute_url }}",
+      "jobTitle": "Ph.D. Candidate",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Dalian University of Technology",
+        "url": "https://www.dlut.edu.cn/"
+      },
+      "sameAs": [
+        "https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}",
+        "https://github.com/{{ site.data.profile.github }}",
+        "https://twitter.com/{{ site.data.profile.twitter }}"
+      ],
+      "knowsAbout": [
+        "AI Agents",
+        "Multi-Agent Systems",
+        "Embodied AI",
+        "Vision-Language-Action Models",
+        "Reinforcement Learning"
+      ]
+    }
+    </script>
+    {% endif %}
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />

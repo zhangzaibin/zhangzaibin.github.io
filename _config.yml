@@ -13,7 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+url: "https://zhangzaibin.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog (empty for a user page served at the domain root)
+title: "Zaibin Zhang"
+description: "Zaibin Zhang is a Ph.D. candidate studying AI agents, multi-agent systems, embodied AI, and Vision-Language-Action models."
+author: "Zaibin Zhang"
 
 # Build settings
 markdown: kramdown
