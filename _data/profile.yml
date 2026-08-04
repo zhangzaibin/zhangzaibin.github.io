@@ -22,23 +22,28 @@ twitter: zhangzaiza26777
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Zaibin Zhang, a Ph.D. candidate at
-    <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>,
-    working on agents in both the digital world and the physical world.
+    I am Zaibin Zhang. I study agents, and I like studying agents :}
+    I am currently a Ph.D. candidate at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>.
+    Previously, I was a visiting Ph.D. student with the TVG Group at the
+    <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a>.
+    I was also a research intern at Shanghai AI Laboratory.
   </p>
   <p>
-    In the <strong>digital world</strong>, my work includes
-    <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, a framework for multi-agent system safety that received the ACL 2024 Outstanding Paper Award,
-    and <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, a million-scale agent society simulation platform with 4.8k+ GitHub stars.
+    I care about how my work can shape the future—or simply, its impact.
+    I open-sourced <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a> and
+    <a href="https://github.com/zhangzaibin/spagent" target="_blank">SPAgent</a>.
+    Together, they have received over 5,000 GitHub stars and are widely used agent frameworks.
   </p>
   <p>
-    In the <strong>physical world</strong>, I am currently focused on embodied AI and Vision-Language-Action models, including
-    <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a> and Attention-DP3 (both ECCV 2026), and <a href="https://github.com/zhangzaibin/spagent" target="_blank">Think3D</a>.
-    I have visited the Torr Vision Group at the <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a> and worked with Shanghai Artificial Intelligence Laboratory and CAMEL-AI on agent research and open-source systems.
+    I value broad vision and deep thinking.
+    <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, the first paper to study multi-agent system safety, received an ACL 2024 Outstanding Paper Award.
+    Recently, I have been working on compositional generalization in multi-arm systems, a fundamental problem in this area.
+    We have taken a first step with <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>, and more work is coming.
   </p>
   <p>
-    Across both worlds, I believe in <strong>Compositional Intelligence</strong>: learning reusable capabilities that can be decomposed and recombined to solve new tasks, rather than relying solely on demonstration scaling.
-    Looking ahead, my goal is to work toward <strong>open-ended robot agents</strong> that continue to compose new capabilities from existing ones.
+    I enjoy learning and exchanging ideas with others.
+    Feel free to contact me at
+    <a href="mailto:dlutzzb@gmail.com">dlutzzb@gmail.com</a>.
   </p>
 
 portrait_url: /assets/images/photos/zzb.jpg

@@ -4,7 +4,7 @@ date:           2024-08-20 00:01:00 +0800
 selected:       true
 homepage_order: 2
 pub:            "Annual Meeting of the Association for Computational Linguistics (ACL)"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">Outstanding Paper</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">Outstanding Paper Award</span>'
 pub_date:       "2024"
 abstract: >-
   We explore multi-agent system safety through the lens of agent psychology, revealing that dark psychological states constitute significant threats. We propose PsySafe, a framework focusing on identifying risky behaviors from dark personality traits, evaluating safety from psychological perspectives, and devising mitigation strategies.
