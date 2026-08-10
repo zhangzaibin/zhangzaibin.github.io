@@ -22,26 +22,31 @@ twitter: zhangzaiza26777
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Zaibin Zhang. I study agents, and I like studying agents :}
+    I am Zaibin Zhang. I study agents, and I like studying agents.
+  </p>
+  <p>
     I am currently a Ph.D. candidate at <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>.
     Previously, I was a visiting Ph.D. student with the TVG Group at the
     <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a>.
     I was also a research intern at Shanghai AI Laboratory.
   </p>
   <p>
-    I care about how my work can shape the future—or simply, its impact.
-    I open-sourced <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a> and
-    <a href="https://github.com/zhangzaibin/spagent" target="_blank">SPAgent</a>.
-    Together, they have received over 5,000 GitHub stars and are widely used agent frameworks.
+    I care about how my work can shape the future.
+    I open-sourced <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, a large-scale agent-society simulation framework adopted worldwide that has inspired several startups, and
+    <a href="https://github.com/zhangzaibin/spagent" target="_blank">SPAgent</a>, a multimodal agent framework for building an ecosystem of agents that perceive, reason, act, and interact in the physical world.
+    Together, my open-source projects have received more than 5,000 GitHub stars.
   </p>
   <p>
     I value broad vision and deep thinking.
-    <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, the first paper to study multi-agent system safety, received an ACL 2024 Outstanding Paper Award.
-    Recently, I have been working on compositional generalization in multi-arm systems, a fundamental problem in this area.
-    We have taken a first step with <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>, and more work is coming.
+    <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, the first paper to study multi-agent system safety, received the <strong>ACL 2024 Outstanding Paper Award</strong>.
+    Recently, I have been working toward open-ended embodied systems.
+    This project spans agent systems, embodied policies such as vision-language-action (VLA), world-action models (WAMs), and more, along with infrastructure and hardware.
+    We have taken a first step with <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>; additional work and a technical report are forthcoming.
   </p>
   <p>
-    I enjoy learning and exchanging ideas with others.
+    I collaborate with outstanding researchers at Oxford, UC San Diego, Stanford, and other institutions on frontier challenges in agent research,
+    including embodied agents, agent societies, agents for science, and self-evolving agents.
+    I welcome collaborators who are excited to explore the future of agents with us.
     Feel free to contact me at
     <a href="mailto:dlutzzb@gmail.com">dlutzzb@gmail.com</a>.
   </p>
