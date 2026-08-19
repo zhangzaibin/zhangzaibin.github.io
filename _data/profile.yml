@@ -22,34 +22,26 @@ twitter: zhangzaiza26777
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Zaibin Zhang, a Ph.D. candidate at
+    Hi there! I am Zaibin Zhang (张再斌), a Ph.D. candidate at
     <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>.
-    My research focuses on agents in both the digital and physical worlds.
   </p>
   <p>
-    Previously, I was a visiting Ph.D. student with the TVG Group at the
-    <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a>.
-    I was also a research intern at Shanghai AI Laboratory.
+    My research asks how artificial intelligence can stay safe, open, and continually self-evolving as it moves from a single model to groups, societies, and the physical world.
+    This question has shaped one coherent trajectory: multi-agent system → agent societies → embodied intelligence → scientific discovery.
   </p>
   <p>
-    For agents in the digital world, I study how agents interact, collaborate, and evolve in complex environments.
-    This line of work includes agent societies, agents for science, and self-evolving agents.
-    I developed <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, an open-source framework for large-scale agent-society simulation.
-    I also study multi-agent system safety.
-    <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a> was the first systematic study of safety in multi-agent systems and received the <strong>ACL 2024 Outstanding Paper Award</strong>.
+    Along this path I proposed <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, the first systematic study of attack, evaluation, and defense for multi-agent systems (<strong>ACL 2024 Outstanding Paper Award</strong>);
+    built <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, an open framework simulating agent societies at <strong>million-agent scale</strong> (<strong>5,000+ stars</strong>, <strong>200+ citations</strong>) that has served as a technical foundation for <strong>dozens of papers at leading conferences and journals</strong> and <strong>multiple startups</strong>, including <strong>MiroFish</strong>;
+    released <a href="https://github.com/zhangzaibin/spagent" target="_blank">SPAgent</a> to move agents into multimodal perception and physical interaction;
+    and defined multi-arm compositional generalization with <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>.
   </p>
   <p>
-    For agents in the physical world, I work on embodied agents that perceive, reason, and act in real environments.
-    My current work covers multimodal agent systems, vision-language-action models, world-action models, and related infrastructure and hardware.
-    <a href="https://github.com/zhangzaibin/spagent" target="_blank">SPAgent</a> is a multimodal agent framework for agents that perceive, reason, act, and interact in the physical world.
-    <a href="https://arxiv.org/abs/2601.13029" target="_blank">Think3D</a> equips vision-language agents with interactive 3D reasoning for spatial tasks.
-    <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a> studies multi-arm collaboration and compositional generalization with vision-language-action models.
+    My strength is not only completing individual studies, but repeatedly identifying frontier problems in agent development early and turning them into systematic frameworks, open-source infrastructure, and real-world impact—toward an agent ecosystem that is trustworthy, open, and able to keep evolving.
   </p>
   <p>
-    My open-source projects have collectively received more than <strong>5,000 GitHub stars</strong> and attracted broad interest from the research community.
-    I am always happy to discuss research and potential collaborations.
-    Feel free to contact me at
-    <a href="mailto:dlutzzb@gmail.com">dlutzzb@gmail.com</a>.
+    My Ph.D. advisor is IEEE Fellow Prof. Huchuan Lu, and I work closely with Prof. Lijun Wang and Yifan Wang.
+    I also collaborate closely with Prof. Philip Torr and Zhenfei Yin at Oxford, Jing Shao at Shanghai AI Lab, and many talented researchers—from rising early-career scholars to those at the height of their careers—too numerous to list individually here.
+    I warmly welcome discussions and collaborations.
   </p>
 
 portrait_url: /assets/images/photos/zzb.jpg

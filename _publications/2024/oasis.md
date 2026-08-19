@@ -4,7 +4,7 @@ date:           2024-11-18 00:01:00 +0800
 selected:       true
 homepage_order: 1
 pub:            "NeurIPS 2024 Workshop on Open-World Agents"
-pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">4800+ GitHub Stars</span>'
+pub_last:       ' <span class="badge badge-pill badge-publication badge-warning">5000+ GitHub Stars</span>'
 pub_date:       "2024"
 abstract: >-
   We propose OASIS, a generalizable and scalable social media simulator based on real-world platforms. OASIS supports large-scale simulations with up to one million users, featuring dynamic environments, diverse action spaces, and recommendation systems. We replicate various social phenomena including information spreading, group polarization, and herd effects.
