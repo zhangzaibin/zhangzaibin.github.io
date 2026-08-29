@@ -8,7 +8,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-warning"
 pub_date:       "2026"
 abstract: >-
   Think3D equips VLM agents with interactive 3D chain-of-thought reasoning by combining 3D reconstruction, ego/global-view switching, and camera-based spatial manipulation. It improves spatial reasoning in a training-free setting and reveals emergent 3D exploration strategies in RL-trained open-weight models.
-cover:          /assets/images/covers/think3d.jpg
+cover:          /assets/images/publications/think3d.png
 authors:
   - Zaibin Zhang*
   - Yuhan Wu*

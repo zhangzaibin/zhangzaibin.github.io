@@ -7,6 +7,7 @@ pub:            "Transactions on Machine Learning Research (TMLR)"
 pub_date:       "2026"
 abstract: >-
   This survey formalizes agentic reinforcement learning as the shift from single-step LLM reinforcement learning to temporally extended decision-making in dynamic environments. Synthesizing more than 500 works, it organizes the field by agent capabilities and applications while cataloging open-source environments, benchmarks, and frameworks.
+cover:          /assets/images/publications/landscape_rl.png
 authors:
   - Guibin Zhang
   - Hejia Geng

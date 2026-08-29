@@ -8,7 +8,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-danger">
 pub_date:       "2024"
 abstract: >-
   We explore multi-agent system safety through the lens of agent psychology, revealing that dark psychological states constitute significant threats. We propose PsySafe, a framework focusing on identifying risky behaviors from dark personality traits, evaluating safety from psychological perspectives, and devising mitigation strategies.
-cover:          /assets/images/covers/psysafe.jpg
+cover:          /assets/images/publications/psysafe.png
 authors:
   - Zaibin Zhang*
   - Yongting Zhang*

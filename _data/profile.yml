@@ -3,9 +3,7 @@ secondary_name: ""
 navbar_name: "Zaibin Zhang"
 
 positions:
-- name: Ph.D. Candidate
-- name: Agentic Embodied AI / VLA / MLLM / Reinforcement Learning
-- name: Dalian University of Technology
+- name: "<strong>Research Interests:</strong> Agents in Digital and Physical Worlds / RL / Recursive Self-Improvement"
 
 
 email: "dlutzzb@gmail.com"
@@ -22,11 +20,12 @@ twitter: zhangzaiza26777
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi there! I am Zaibin Zhang (张再斌), a Ph.D. candidate at
+    Hi I am Zaibin Zhang (张再斌), a Ph.D. candidate at
     <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>.
+    I was previously a visiting scholar at the <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a> and a research intern at the <a href="https://www.shlab.org.cn/" target="_blank">Shanghai Artificial Intelligence Laboratory</a>.
   </p>
   <p>
-    My research asks how artificial intelligence can stay safe, open, and continually self-evolving as it moves from a single model to groups, societies, and the physical world.
+    My research asks how artificial intelligence can stay reliable, open, and continually self-evolving as it moves from a single agent to groups, societies, and the physical world.
     This question has shaped one coherent trajectory: multi-agent system → agent societies → embodied intelligence → scientific discovery.
   </p>
   <p>
@@ -39,9 +38,13 @@ short_bio: >-
     My strength is not only completing individual studies, but repeatedly identifying frontier problems in agent development early and turning them into systematic frameworks, open-source infrastructure, and real-world impact—toward an agent ecosystem that is trustworthy, open, and able to keep evolving.
   </p>
   <p>
-    My Ph.D. advisor is IEEE Fellow Prof. Huchuan Lu, and I work closely with Prof. Lijun Wang and Yifan Wang.
-    I also collaborate closely with Prof. Philip Torr and Zhenfei Yin at Oxford, Jing Shao at Shanghai AI Lab, and many talented researchers—from rising early-career scholars to those at the height of their careers—too numerous to list individually here.
-    I warmly welcome discussions and collaborations.
+    My Ph.D. advisor is IEEE Fellow <a href="https://faculty.dlut.edu.cn/huchuan_Lu/en/index.htm" target="_blank">Prof. Huchuan Lu</a>, and I work closely with <a href="http://faculty.dlut.edu.cn/wanglj/zh_CN/index.htm" target="_blank">Prof. Lijun Wang</a> and <a href="https://faculty.dlut.edu.cn/wangyifan/en/index.htm" target="_blank">Yifan Wang</a>.
+    I also collaborate closely with <a href="https://eng.ox.ac.uk/people/philip-torr" target="_blank">Prof. Philip Torr</a> and <a href="https://yinzhenfei.github.io/" target="_blank">Zhenfei Yin</a> at the University of Oxford.
+    In the past, I was also very fortunate to collaborate with <a href="https://amandajshao.github.io/" target="_blank">Jing Shao</a> at Shanghai AI Lab.
+    Of course, I have also collaborated with many talented friends—from rising early-career scholars to those at the height of their careers—too numerous to list individually here.
+  </p>
+  <p>
+    I warmly welcome everyone to reach out for a chat or an exchange of ideas, and I am always open to collaboration!
   </p>
 
 portrait_url: /assets/images/photos/zzb.jpg

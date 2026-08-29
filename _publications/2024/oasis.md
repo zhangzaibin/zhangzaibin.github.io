@@ -8,7 +8,7 @@ pub_last:       ' <span class="badge badge-pill badge-publication badge-warning"
 pub_date:       "2024"
 abstract: >-
   We propose OASIS, a generalizable and scalable social media simulator based on real-world platforms. OASIS supports large-scale simulations with up to one million users, featuring dynamic environments, diverse action spaces, and recommendation systems. We replicate various social phenomena including information spreading, group polarization, and herd effects.
-cover:          /assets/images/covers/oasis.jpg
+cover:          /assets/images/publications/oasis.png
 authors:
   - Ziyi Yang*
   - Zaibin Zhang*

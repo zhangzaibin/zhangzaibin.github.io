@@ -7,7 +7,7 @@ pub:            "International Conference on Learning Representations (ICLR)"
 pub_date:       "2026"
 abstract: >-
   We propose CoMAS, a framework for self-evolution of LLM-based agents through interaction rewards. Agents interact in a forum-like setting, evaluate each other, and optimize policies from self-produced reward signals, enabling continuous co-evolution without external supervision.
-cover:          /assets/images/covers/comas.jpg
+cover:          /assets/images/publications/comas.png
 authors:
   - Xiangyuan Xue
   - Yifan Zhou
