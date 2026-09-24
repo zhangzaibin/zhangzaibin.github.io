@@ -61,6 +61,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.lab_url %}
+                        <a class="px-1 no-break" target="_blank" rel="noopener noreferrer" href="{{ site.data.profile.lab_url }}">
+                            Evolving Machines Lab
+                        </a>
+                        {% endif %}
+
                         {% if site.data.profile.wechat_qrcode %}
                         <a class="px-1 no-break" data-toggle="modal" data-target="#modal-wechat">
                             WeChat
