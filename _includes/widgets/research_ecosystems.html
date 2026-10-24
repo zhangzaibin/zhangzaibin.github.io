@@ -1,0 +1,13 @@
+<section class="ecosystems-section page-section" id="ecosystems" aria-labelledby="ecosystems-heading">
+    <div class="section-heading"><h2 id="ecosystems-heading">Projects</h2></div>
+    <div class="ecosystems-grid">
+        {% for ecosystem in site.data.research.ecosystems %}
+        <article class="ecosystem">
+            <div class="ecosystem-image"><img src="{{ ecosystem.image | relative_url }}" alt="{{ ecosystem.name }} project illustration" loading="lazy" width="700" height="480"></div>
+            <h3>{{ ecosystem.name }}</h3>
+            <p class="ecosystem-description">{{ ecosystem.description }}</p>
+            <a class="ecosystem-link" href="{{ ecosystem.url }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+        {% endfor %}
+    </div>
+</section>

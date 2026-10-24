@@ -1,0 +1,14 @@
+<dialog class="wechat-dialog" id="wechat-dialog" aria-labelledby="wechat-heading">
+    <div class="wechat-dialog-header">
+        <h2 id="wechat-heading">WeChat</h2>
+        <form method="dialog">
+            <button class="wechat-close" type="submit" aria-label="Close WeChat QR code">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+                    <path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+                </svg>
+            </button>
+        </form>
+    </div>
+    <img class="wechat-qr" src="{{ site.data.profile.wechat_qrcode | relative_url }}" width="594" height="616" alt="WeChat QR code for adding Zaibin Zhang as a contact">
+    <p class="wechat-note">Scan to add me on WeChat.</p>
+</dialog>

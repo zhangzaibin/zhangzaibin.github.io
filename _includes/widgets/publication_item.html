@@ -1,55 +1,21 @@
 {% assign item = include.item %}
-<div class="d-none d-md-block">
-    <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
-        {% if item.cover %}
-        <div class="col-md-3 p-3 pr-0 d-flex align-items-center">
-            <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="publication-cover rounded">
-        </div>
-        {% endif %}
-        <div class="col p-3">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-            <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-            <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
-            <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
-            
-            <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                {% for link in item.links %}
-                {% if link[1].url %}
-                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
-                {% else %}
-                <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
-                {% endif %}
-                {% endfor %}
-            </p>
-
-        </div>
-    </div>
-</div>
-
-<div class="row no-gutters d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %}">
-    <div class="w-100 {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %}">
-        <div class="d-flex align-items-start flex-column py-3 px-4">
-            {% if item.cover %}
-            <img src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="publication-cover publication-cover-mobile rounded mb-3">
+<article class="publication-item{% unless item.cover %} publication-without-cover{% endunless %}">
+    {% if item.cover %}
+    <div class="publication-image"><img src="{{ item.cover | relative_url }}" alt="Research overview for {{ item.title | escape }}" class="publication-cover" loading="lazy"></div>
+    {% endif %}
+    <div class="publication-body">
+        <h3>{{ item.title }}</h3>
+        <p class="publication-authors">{% include widgets/author_list.html authors=item.authors %}</p>
+        <p class="publication-venue">{{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
+        <p class="publication-abstract">{{ item.abstract }}</p>
+        <div class="abstract-links">
+            {% for link in item.links %}
+            {% if link[1].url %}
+            <a target="{{ link[1]['target'] }}" rel="noopener noreferrer" href="{{ link[1]['url'] }}">{{ link[0] }} <span aria-hidden="true">↗</span></a>
+            {% else %}
+            <a target="_blank" rel="noopener noreferrer" href="{{ link[1] }}">{{ link[0] }} <span aria-hidden="true">↗</span></a>
             {% endif %}
-            <div class="mb-auto"></div>
-            <div>
-                <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
-                <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
-                <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
-                <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
-                
-                <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
-                    {% for link in item.links %}
-                    {% if link[1].url %}
-                    <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
-                    {% else %}
-                    <a target="_blank" href="{{ link[1] }}">[{{ link[0] }}]</a>
-                    {% endif %}
-                    {% endfor %}
-                </p>
-            </div>
+            {% endfor %}
         </div>
     </div>
-
-</div>
+</article>

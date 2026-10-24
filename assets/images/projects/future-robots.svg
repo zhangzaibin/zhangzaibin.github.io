@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480">
+<title>Future Robots</title>
+<!-- Project illustration reused from EML Lab's ProjectFeature component. -->
+<style>svg { color: #242623; }
+g > path, .orbit, g > rect { fill: none; stroke: currentColor; stroke-width: 1.1; vector-effect: non-scaling-stroke; }
+.orbit { stroke-dasharray: 4 8; }
+.faint { opacity: .28; }
+.node { fill: #f8f7f4; stroke: #242623; stroke-width: 1.5; }
+.signal { fill: #ce7256; stroke: #242623; stroke-width: 1.5; }
+.sweep { stroke-dasharray: 3 8; }</style>
+<defs><pattern id="grid-future-robots" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#242623" stroke-width=".6" opacity=".16"/></pattern></defs>
+<rect width="700" height="480" fill="#eee4dc"/>
+<rect width="700" height="480" fill="url(#grid-future-robots)"/>
+<g class="motion">
+					<path class="sweep" d="M102 356C196 97 439 62 604 207" />
+					<path class="sweep faint" d="M102 356c168 34 344-13 502-149" />
+					<path d="M102 356l104-34 88-96 115 20 88-101 107 62" />
+					<circle class="signal" cx="102" cy="356" r="14" />
+					<circle class="node" cx="206" cy="322" r="8" />
+					<circle class="node" cx="294" cy="226" r="12" />
+					<circle class="signal" cx="409" cy="246" r="18" />
+					<circle class="node" cx="497" cy="145" r="9" />
+					<circle class="node" cx="604" cy="207" r="14" />
+				</g>
+</svg>

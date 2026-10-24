@@ -1,35 +1,47 @@
 ---
 layout: default
-title : Homepage
+title: Homepage
 navbar_title: Home
 ---
 
-<div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
+<section class="home-hero" aria-labelledby="profile-name">
+    <div class="hero-copy">
+        <h1 id="profile-name">{{ site.data.profile.primary_name }}<span class="chinese-name" lang="zh-CN">{{ site.data.profile.chinese_name }}</span></h1>
+        <p class="hero-description">{{ site.data.profile.hero_description }}</p>
+        {% if site.data.profile.job_market %}
+        <p class="job-market"><strong>I am currently on the job market.</strong> <a href="mailto:{{ site.data.profile.email | encode_email }}">Please feel free to contact me.</a></p>
+        {% endif %}
+        <div class="hero-actions">
+            <a class="button" href="{{ site.data.profile.lab_url }}" target="_blank" rel="noopener noreferrer">Evolving Machines Lab <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#ecosystems">Projects <span aria-hidden="true">↓</span></a>
+        </div>
     </div>
-    <div class="col-lg-9 col-md-8">
+    {% include widgets/profile_card_mini.html %}
+</section>
 
-        {% include widgets/profile_card_bio_only.html %}
+{% assign latest_paper = site.publications | sort: "date" | last %}
+{% if latest_paper.links.Paper %}
+<aside class="latest-research" aria-label="Latest research">
+    <p class="mono-label">Latest paper / {{ latest_paper.date | date: "%b %Y" }}</p>
+    <a href="{{ latest_paper.links.Paper }}" target="_blank" rel="noopener noreferrer">{{ latest_paper.title }} <span aria-hidden="true">↗</span></a>
+</aside>
+{% endif %}
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
+{% include widgets/profile_card_bio_only.html %}
+{% include widgets/research_ecosystems.html %}
 
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
+{% if site.data.display.homepage.show_selected_publications %}
+{% assign pubs = site.publications | sort: "homepage_order" | where: "selected", true %}
+{% include widgets/publication_card.html publications=pubs title='Selected publications' %}
+{% endif %}
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "homepage_order" | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='Selected Publications'
-        %}
-        {% endif %}
-    </div>
-</div>
+{% if site.data.display.homepage.show_news %}
+{% assign count_news = site.news | size %}
+{% if count_news > 0 %}
+{% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+{% endif %}
+{% endif %}
+
+{% if site.data.display.homepage.show_experience %}
+{% include widgets/experience_card.html %}
+{% endif %}

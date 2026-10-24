@@ -1,21 +1,9 @@
-{% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
-
-<div class="my-3 bg-white shadow-sm rounded-xl">
-    <h6 class="p-3 mb-0 border-bottom border-gray">News</h6>
-    <div class="px-3 pb-1 small">
-        {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
-            {% assign not_first = true %}
-            <div class="mr-3 text-muted my-1">{{ year.name }}</div>
-            <div class="media-body">
-                {% for item in year.items %}
-                <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+{% assign recent_news = site.news | sort: "date" | reverse | slice: 0, include.limit %}
+<section class="news-section page-section" id="news" aria-labelledby="news-heading">
+    <div class="section-heading"><h2 id="news-heading">News</h2></div>
+    <div class="news-list">
+        {% for item in recent_news %}
+        <div class="news-item"><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%b %Y" }}</time><div>{{ item.title }}</div></div>
         {% endfor %}
     </div>
-</div>
+</section>

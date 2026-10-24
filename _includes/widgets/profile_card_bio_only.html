@@ -1,25 +1,9 @@
-<div class="mt-3 d-md-none"></div>
-<div class="row">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-4">
-                <div class="row px-3 pt-3">
-                    <div class="col h3">
-                        About Me
-                    </div>
-                </div>
-                <div class="row p-3">
-                    <div class="col">
-                        <div class="text-profile-bio mt-0" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
-                            {{ site.data.profile.short_bio }}
-                        </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}">Curriculum Vitae</a> <br/>
-                        {% endif %}
-                    </div>
-        
-                </div>
-            </div>
-        </div>        
+<section class="about-section page-section" id="about" aria-labelledby="about-heading">
+    <div class="section-intro">
+        <h2 id="about-heading">About</h2>
     </div>
-</div>
+    <div class="text-profile-bio" {% if site.data.profile.short_bio_text_justify %}style="text-align: justify;"{% endif %}>
+        {{ site.data.profile.short_bio }}
+        {% if site.data.profile.cv_link %}<a target="_blank" rel="noopener noreferrer" href="{{ site.data.profile.cv_link | relative_url }}">Curriculum Vitae ↗</a>{% endif %}
+    </div>
+</section>

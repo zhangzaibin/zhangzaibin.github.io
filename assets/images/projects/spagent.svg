@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 480">
+<title>SPAgent</title>
+<!-- Project illustration reused from EML Lab's ProjectFeature component. -->
+<style>svg { color: #242623; }
+g > path, .orbit, g > rect { fill: none; stroke: currentColor; stroke-width: 1.1; vector-effect: non-scaling-stroke; }
+.orbit { stroke-dasharray: 4 8; }
+.faint { opacity: .28; }
+.node { fill: #f8f7f4; stroke: #242623; stroke-width: 1.5; }
+.signal { fill: #ce7256; stroke: #242623; stroke-width: 1.5; }
+.sweep { stroke-dasharray: 3 8; }</style>
+<defs><pattern id="grid-spagent" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#242623" stroke-width=".6" opacity=".16"/></pattern></defs>
+<rect width="700" height="480" fill="#e8ebe4"/>
+<rect width="700" height="480" fill="url(#grid-spagent)"/>
+<g class="modules">
+					<path d="M105 240h105m120 0h90m120 0h55M270 150v-48m0 276v-48M480 150v-48m0 276v-48" />
+					<rect x="210" y="150" width="120" height="180" rx="60" />
+					<rect x="420" y="150" width="120" height="180" rx="60" />
+					<circle class="signal" cx="270" cy="240" r="24" />
+					<circle class="node" cx="480" cy="240" r="24" />
+					<circle class="node" cx="105" cy="240" r="10" />
+					<circle class="signal" cx="595" cy="240" r="10" />
+					<circle class="node" cx="270" cy="102" r="7" />
+					<circle class="node" cx="270" cy="378" r="7" />
+					<circle class="node" cx="480" cy="102" r="7" />
+					<circle class="node" cx="480" cy="378" r="7" />
+				</g>
+</svg>

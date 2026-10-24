@@ -1,0 +1,13 @@
+ecosystems:
+  - name: "OASIS"
+    description: "Open social simulation for studying interactions and collective behavior among up to one million agents."
+    url: "https://github.com/camel-ai/oasis"
+    image: "/assets/images/projects/oasis.svg"
+  - name: "SPAgent"
+    description: "A multimodal agent framework for perception, spatial reasoning, and tool use."
+    url: "https://github.com/zhangzaibin/spagent"
+    image: "/assets/images/projects/spagent.svg"
+  - name: "Future Robots"
+    description: "VLA policies and benchmarks for multi-arm collaboration and compositional generalization."
+    url: "https://github.com/zhangzaibin/future-robots"
+    image: "/assets/images/projects/future-robots.svg"

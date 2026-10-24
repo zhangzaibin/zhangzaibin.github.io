@@ -16,7 +16,7 @@
 url: "https://zhangzaibin.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog (empty for a user page served at the domain root)
 title: "Zaibin Zhang"
-description: "Zaibin Zhang is a Ph.D. candidate studying AI agents, multi-agent systems, embodied AI, and Vision-Language-Action models."
+description: "Zaibin Zhang is a Ph.D. candidate at Dalian University of Technology and founder of Evolving Machines Lab. His research focuses on AI agents, reinforcement learning, and embodied intelligence."
 author: "Zaibin Zhang"
 
 # Build settings

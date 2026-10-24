@@ -1,14 +1,12 @@
 {% assign publications = include.publications %}
-<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
-    <h6 class="border-bottom border-gray p-3 mb-0">
-        {% if include.title %}{{ include.title }}{% else %}Selected Recent Publications{% endif %} 
-        <a href="{{ 'publications' | relative_url }}">(view all)</a>
-    </h6>
-    {% for item in publications limit:include.limit %}
-        {% include widgets/publication_item.html item=item first=false last=false %}    
-    {% endfor %}
-    <h6 class="d-block p-3 mt-0 text-right">
-        <a href="{{ 'publications' | relative_url }}">All publications</a>
-    </h6>
-</div>
-
+<section class="publications-section page-section" id="publications" aria-labelledby="publications-heading">
+    <div class="section-heading">
+        <h2 id="publications-heading">{{ include.title | default: 'Selected publications' }}</h2>
+        <a class="text-link" href="{{ '/publications' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="publications-list">
+        {% for item in publications limit:include.limit %}
+        {% include widgets/publication_item.html item=item %}
+        {% endfor %}
+    </div>
+</section>

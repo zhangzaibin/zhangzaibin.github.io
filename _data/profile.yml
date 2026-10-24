@@ -1,9 +1,13 @@
 primary_name: "Zaibin Zhang"
 secondary_name: ""
 navbar_name: "Zaibin Zhang"
+chinese_name: "张再斌"
+hero_description: "My research focuses on AI agents, reinforcement learning, and embodied intelligence."
+job_market: true
 
 positions:
-- name: "<strong>Research Interests:</strong> Agents in Digital and Physical Worlds / RL / Recursive Self-Improvement"
+- name: "Ph.D. Candidate · Dalian University of Technology"
+- name: "Founder · Evolving Machines Lab"
 
 
 email: "dlutzzb@gmail.com"
@@ -11,8 +15,9 @@ email: "dlutzzb@gmail.com"
 gscholar: 3SAk3GQAAAAJ
 github: zhangzaibin
 twitter: zhangzaiza26777
+xiaohongshu: "https://www.xiaohongshu.com/user/profile/63932aad0000000026013d3a"
+wechat_qrcode: /assets/images/contact/wechat.jpg
 lab_url: "https://zhangzaibin.github.io/evolving-machines"
-# wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 # linkedin: your-linked-in-id
@@ -21,32 +26,29 @@ lab_url: "https://zhangzaibin.github.io/evolving-machines"
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hi I am Zaibin Zhang (张再斌), a Ph.D. candidate at
-    <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>
-    and the founder of <a href="https://zhangzaibin.github.io/evolving-machines" target="_blank" rel="noopener noreferrer">Evolving Machines Lab</a>.
-    I was previously a visiting scholar at the <a href="https://www.ox.ac.uk/" target="_blank">University of Oxford</a> and a research intern at the <a href="https://www.shlab.org.cn/" target="_blank">Shanghai Artificial Intelligence Laboratory</a>.
+    I am a Ph.D. candidate at <a href="https://www.dlut.edu.cn/" target="_blank" rel="noopener noreferrer">Dalian University of Technology</a>
+    and the founder of <a href="https://zhangzaibin.github.io/evolving-machines/" target="_blank" rel="noopener noreferrer">Evolving Machines Lab (EML)</a>.
+    I was previously a visiting scholar at the <a href="https://www.ox.ac.uk/" target="_blank" rel="noopener noreferrer">University of Oxford</a> and a research intern at the <a href="https://www.shlab.org.cn/" target="_blank" rel="noopener noreferrer">Shanghai Artificial Intelligence Laboratory</a>.
   </p>
   <p>
-    My research asks how artificial intelligence can stay reliable, open, and continually self-evolving as it moves from a single agent to groups, societies, and the physical world.
-    This question has shaped one coherent trajectory: multi-agent system → agent societies → embodied intelligence → scientific discovery.
+    At EML, I work on agents that continue learning from interaction and feedback.
+    My research covers <strong>compositional generalization</strong>, <strong>on-policy learning</strong>, and <strong>open-ended multimodal tool use</strong> in digital and physical environments.
   </p>
   <p>
-    Along this path I proposed <a href="https://arxiv.org/abs/2401.11880" target="_blank">PsySafe</a>, the first systematic study of attack, evaluation, and defense for multi-agent systems (<strong>ACL 2024 Outstanding Paper Award</strong>);
-    built <a href="https://github.com/camel-ai/oasis" target="_blank">OASIS</a>, an open framework simulating agent societies at <strong>million-agent scale</strong> (<strong>5,000+ stars</strong>, <strong>200+ citations</strong>) that has served as a technical foundation for <strong>dozens of papers at leading conferences and journals</strong> and <strong>multiple startups</strong>, including <strong>MiroFish</strong>;
-    released <a href="https://github.com/zhangzaibin/spagent" target="_blank">SPAgent</a> to move agents into multimodal perception and physical interaction;
-    and defined multi-arm compositional generalization with <a href="https://github.com/zhangzaibin/future-robots" target="_blank">MA-VLA</a>.
+    I am building three open-source ecosystems:
+    <a href="https://github.com/camel-ai/oasis" target="_blank" rel="noopener noreferrer"><strong>OASIS</strong></a> for large-scale agent societies;
+    <a href="https://github.com/zhangzaibin/spagent" target="_blank" rel="noopener noreferrer"><strong>SPAgent</strong></a> for multimodal tool use and spatial reasoning;
+    and <a href="https://github.com/zhangzaibin/future-robots" target="_blank" rel="noopener noreferrer"><strong>Future Robots</strong></a> for embodied agents and compositional VLA policies.
   </p>
   <p>
-    My strength is not only completing individual studies, but repeatedly identifying frontier problems in agent development early and turning them into systematic frameworks, open-source infrastructure, and real-world impact—toward an agent ecosystem that is trustworthy, open, and able to keep evolving.
+    <a href="https://arxiv.org/abs/2401.11880" target="_blank" rel="noopener noreferrer">PsySafe</a> received an <strong>ACL 2024 Outstanding Paper Award</strong>.
+    OASIS supports <strong>one million agents</strong> and has <strong>5,000+ GitHub stars</strong>.
+    It has supported <strong>dozens of papers at leading AI conferences</strong> and served as a technical foundation for startup products such as <strong>MiroFish</strong>.
   </p>
   <p>
-    My Ph.D. advisor is IEEE Fellow <a href="https://faculty.dlut.edu.cn/huchuan_Lu/en/index.htm" target="_blank">Prof. Huchuan Lu</a>, and I work closely with <a href="http://faculty.dlut.edu.cn/wanglj/zh_CN/index.htm" target="_blank">Prof. Lijun Wang</a> and <a href="https://faculty.dlut.edu.cn/wangyifan/en/index.htm" target="_blank">Yifan Wang</a>.
-    I also collaborate closely with <a href="https://eng.ox.ac.uk/people/philip-torr" target="_blank">Prof. Philip Torr</a> and <a href="https://yinzhenfei.github.io/" target="_blank">Zhenfei Yin</a> at the University of Oxford.
-    In the past, I was also very fortunate to collaborate with <a href="https://amandajshao.github.io/" target="_blank">Jing Shao</a> at Shanghai AI Lab.
+    My Ph.D. advisor is IEEE Fellow <a href="https://faculty.dlut.edu.cn/huchuan_Lu/en/index.htm" target="_blank" rel="noopener noreferrer">Prof. Huchuan Lu</a>, and I work closely with <a href="http://faculty.dlut.edu.cn/wanglj/zh_CN/index.htm" target="_blank" rel="noopener noreferrer">Prof. Lijun Wang</a> and <a href="https://faculty.dlut.edu.cn/wangyifan/en/index.htm" target="_blank" rel="noopener noreferrer">Yifan Wang</a>.
+    I also collaborate with <a href="https://eng.ox.ac.uk/people/philip-torr" target="_blank" rel="noopener noreferrer">Prof. Philip Torr</a> and <a href="https://yinzhenfei.github.io/" target="_blank" rel="noopener noreferrer">Zhenfei Yin</a> at Oxford, and previously worked with <a href="https://amandajshao.github.io/" target="_blank" rel="noopener noreferrer">Jing Shao</a> at Shanghai AI Lab.
     Of course, I have also collaborated with many talented friends—from rising early-career scholars to those at the height of their careers—too numerous to list individually here.
-  </p>
-  <p>
-    I warmly welcome everyone to reach out for a chat or an exchange of ideas, and I am always open to collaboration!
   </p>
 
 portrait_url: /assets/images/photos/zzb.png
@@ -61,13 +63,13 @@ education:
     Supervisor: Prof. Philip Torr
   date: Sep. 2025 - Mar. 2026
 - name: Dalian University of Technology
-  logo: /assets/images/badges/dut.jpg
+  logo: /assets/images/badges/DUT.png
   position: >- 
     Ph.D. in Signal and Information Processing <br/>
     Advisor: Prof. Huchuan Lu
   date: Sep. 2022 - Present
 - name: Dalian University of Technology
-  logo: /assets/images/badges/dut.jpg
+  logo: /assets/images/badges/DUT.png
   position: >-
     M.S. in Mechanical Engineering
   date: Sep. 2019 - Jun. 2022
